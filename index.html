@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geotastic Search Tool</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Geotastic Search Tool</h1>
+    <textarea id="inputText" rows="10" placeholder="Paste your text here..."></textarea>
+    <br>
+    <button onclick="extractAndSearch()">Extract and Search</button>
+
+    <div class="results-container">
+        <div class="result-box" id="mapsLink">
+            <h3>Google Maps Links</h3>
+            Links will be displayed here.
+        </div>
+        <div class="result-box" id="result">
+            <h3>Results</h3>
+            Results will be displayed here.
+        </div>
+    </div>
+
+   
+    <footer>
+        <p>&copy; 2024 Nahid. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
